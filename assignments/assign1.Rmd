@@ -1,0 +1,15 @@
+---
+title: "Assignment1"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment 1
+1. Come up with two questions that could be asked by political scientists. One question should be clearly normative and one objective. 
+
+2. Read the wikipedia page on Falsifiability [https://en.wikipedia.org/wiki/Falsifiability](https://en.wikipedia.org/wiki/Falsifiability). According to Karl Popper, can theories ever be proven to be true? 
+
+3. 

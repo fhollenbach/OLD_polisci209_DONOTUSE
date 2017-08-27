@@ -1,6 +1,6 @@
 ---
-title: Class Syllabus for Polisci 209 -905 and 209-906
-description: Introduction to Political Research Methods
+title: "Class Syllabus for Polisci 209 -905 and 209-906"
+output: pdf_document
 ---
 
 ### Instructor:
@@ -20,6 +20,7 @@ __Email:__ niehausjm@tamu.edu
 __Office:__  2044 Allen Building
 
 __Office Hours:__  Tuesday 11am - noon & Thursday 9:00am - 10am.
+
 
 
 
