@@ -44,8 +44,8 @@ Hal Varian, chief economist at Google
 W. Edwards Deming
 
 
-Data and data analysis are becoming more and more important for us all
-as citizens in the modern nation state, the moden work place, and as
+Data and data analysis are becoming more and more important for us
+as citizens in the modern nation state, the modern work place, and as
 consumers of increasingly complex information. At the same time, the
 understanding of statistical fundamentals is as pertinent as ever to
 read any political science research. This class serves two main
@@ -64,23 +64,24 @@ At the end of the semester, after completing this course, students are expected 
 
 - Be able to do simple programming in R, such as:
   - plot and interpret histograms, scatterplots, boxplots
-  - run simple statistical models in R
-  - simple mapping in R
+  - run simple statistical models
+  - simple mapping
   
-- Explain and understand simple descriptive, univariate, and bivariate statistical concepts, such as:
-  – mean,
-  – (co)variance, correlation
-  – measurement
-  – Central Limit Theorem
-  – bivariate linear regression
-  – multivariate linear regression
-  - hypothesis tests
+- Explain and understand simple descriptive, univariate, and bivariate
+statistical concepts, such as:
+	– mean
+	– (co)variance, correlation
+	– measurement
+	– Central Limit Theorem
+	– bivariate linear regression
+	– multivariate linear regression
+	- hypothesis tests
 
 
 ### COURSE STRUCTURE & REQUIREMENTS:
 
 The class will meet three times a week on Monday, Wednesday, and
-Friday. Classes will be applied, cover programming, examples, or go
+Friday. Classes will not simply be lecture based. We will cover programming, examples, or go
 over problem sets. This class will cover a variety of
 (complicated) concepts. Generally concepts will first be covered in
 the readings and we will go over specific applications and your
@@ -109,7 +110,7 @@ scheduled.
 ###  GRADING & RESPONSIBILITIES:
 
 Your grade will be based on two exams (40 % combined) at the middle
-and end of the semester, class attendance, participation, and excersises (30% combined), and
+and end of the semester, class attendance, participation, and exercises (30% combined), and
 three written assignments (30% combined). All assignments are due before
 class on the day they are listed on the syllabus.
 
@@ -117,9 +118,9 @@ I expect you to do the assigned readings for each class before the
 lecture, participate in class discussions, and come prepared with
 questions. Specifically, you will be graded on:
 
-- home work assignments/review exercises: 20% of class
+- homework assignments/review exercises: 20% of class
 grade
-	- home work assignments and review exercises will be graded on
+	- homework assignments and review exercises will be graded on
           pass/fail, i.e. your grade will be the percentage of
           exercises you passed. You are allowed to miss two exercises
           unexcused, i.e. if there are 20 total assignments your grade
@@ -135,8 +136,8 @@ grade
            will only be excused for good reasons. You must contact me
            __before__ class.
 		   If you have more than 15 unexcused absences, you will
-           receive and F in the course. Similarly, while unexpected
-           events can cause tardiness, if you repeatedly come arrive
+           receive an F in the course. Similarly, while unexpected
+           events can cause tardiness, if you repeatedly arrive
            late to class, I reserve the right to mark late arrivals as
            absences. Should you arrive to class late, be sure to let
            me know after class so that I can mark you as present.
@@ -156,7 +157,7 @@ grade
           student, who will provide comments. You will incorporate the
           comments and will then be graded on the final version.
 		  Your comments to your fellow students will be graded
-          pass/fail as a home work exercise.
+          pass/fail as a homework exercise.
 		  __The final version of the written assignments are to be
           submitted via Turnitin on eCampus prior to class on the day
           they are due.__
@@ -164,16 +165,13 @@ grade
 - Exam 1: 15% of class grade
 	- The first exam will cover the first half of the semester and
           will be worth 15% of your class grade. The exams focus on
-          all of the material covered up to the exam, including the
+          all of the material covered up to the exam, includng the
           readings, lectures, and exercises. The assigned exercises
           should serve as excellent preparation for the exams
 		  
 - Final Exam (cumulative): 25% of class grade
 	- The final exam will cover the material from the whole
-          class and will be worth 25% of your class grade. The exams focus on
-          all of the material covered up to the exam, including the
-          readings, lectures, and exercises. The assigned exercises
-          should serve as excellent preparation for the exams. 
+          class and will be worth 25% of your class grade. 
 
 The grading scale (in %) used in this class for all written
 assignments, exams, and the overall class grade will be the following:
@@ -275,7 +273,7 @@ can have a similar effect as hiring a SAT tutor](https://www.washingtonpost.com/
 ![Laptops as distraction](https://pbs.twimg.com/media/C9oYA4GUAAI0RKf.jpg:large)
 
 I may make exceptions to this rule, but only if you have good reasons
-for why you need to use a computer. If so please contact me within the
+for why you need to use a computer. If you believe you warrant an exception, please contact me within the
 first week of class.
 
 In addition, please make sure your cell phones are on silent mode and
@@ -313,7 +311,7 @@ __There will be no exceptions to these rules.__
 Students that want to appeal a grade received on an exam or assignment must submit a regrading request in written form (no email). This request has to be turned in within five working days after the graded exams or assignments are returned to the class. The written statement must explain exactly why the student believes the current grade is incorrect. I will then regrade the entire assignment or exam extra carefully. NOTE, as a consequence your grade may go up or down.
 
 ### COMMUNICATION:
-The best place to ask questions is in the class room. If your question
+The best place to ask questions is in the classroom. If your question
 is not related to class material or relevant to other students, we can
 discuss it after class. I encourage you to visit my office hours to
 discuss any difficulties with the readings or homeworks. Again,
