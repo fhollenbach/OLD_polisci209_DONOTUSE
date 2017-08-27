@@ -1,1 +1,21 @@
+# Themes are encouraged to use these universal variables
+# so be sure to set them if your theme uses them.
+#
+title : Course Site for Pols209
+author :
+  name : Florian M. Hollenbach
+  email : fhollenbach@tamu.edu
+  github : fhollenbach
+  twitter : nil
+  feedburner : nil
+
+markdown: kramdown
 theme: jekyll-theme-dinky
+
+exclude: [".rvmrc", ".rbenv-version", "ReadMe.md", "Rakefile", "changelog.md", "License.md"]
+
+
+production_url : https://fhollenbach.github.io/polisci209_fall2017
+
+JB :
+  version : 0.3.0
