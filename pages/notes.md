@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Notes for Polsci 209 - Fall 2017
 description: Notes will be posted here
 ---

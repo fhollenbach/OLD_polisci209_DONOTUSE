@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Class Syllabus for Polisci 209 -905 and 209-906
 description: Introduction to Political Research Methods
 ---
