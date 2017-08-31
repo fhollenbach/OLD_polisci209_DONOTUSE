@@ -383,7 +383,7 @@ notification.
 
 
 #### Friday, September 1st: Models
-- Review [notes on Models](../img/images/notes-02-models.pdf)
+- Review [notes on Models](../img/images/notes-03-models.pdf)
 
 
 ### Week 2
