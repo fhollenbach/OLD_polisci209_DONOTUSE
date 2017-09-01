@@ -384,14 +384,14 @@ notification.
 
 #### Friday, September 1st: Models
 - Review [notes on Models](../img/images/notes-03-models.pdf)
-
+- [Slides for Week1](../img/images/slides_209_week1.pdf)
 
 ### Week 2
 
 
 #### Monday, September 4ht: Getting started in R
 - Review [notes on starting in R](../img/images/notes-04-computing.pdf)
-- Complete Assignment 1
+- Complete [Assignment 1](../img/images/assign1.pdf)
 
 #### Wednesday, September 6th: Causal Inference
 - Read chp. 1-2 of FPP

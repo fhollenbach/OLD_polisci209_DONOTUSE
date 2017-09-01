@@ -1,5 +1,5 @@
 ---
-title: "Assignment1"
+title: "Assignment1 -- Polisci 209 -- Due in class on Sept 4"
 output: pdf_document
 ---
 
@@ -8,8 +8,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Assignment 1
-1. Come up with two questions that could be asked by political scientists. One question should be clearly normative and one objective. 
+1. Come up with two questions that could be asked by political scientists. One question should be clearly normative and one causal. 
 
-2. Read the wikipedia page on Falsifiability [https://en.wikipedia.org/wiki/Falsifiability](https://en.wikipedia.org/wiki/Falsifiability). According to Karl Popper, can theories ever be proven to be true? 
+2. Read the following subsections on the wikipedia page on Falsifiability [https://en.wikipedia.org/wiki/Falsifiability](https://en.wikipedia.org/wiki/Falsifiability): __Overview__, __Naïve falsification__, and __Falsificationism__. What is the story on swans about?
 
-3. 
+3. Joe and Kate have a theory that more education leads to stonger political interests and makes people more likely to vote. Can you think of two empirical implcations that should follow from this theory and that we could test?
+
+4. What are the 3 steps in the scientific process according to Feynman's 1 minute lecture?
