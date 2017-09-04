@@ -392,6 +392,8 @@ notification.
 #### Monday, September 4ht: Getting started in R
 - Review [notes on starting in R](../img/images/notes-04-computing.pdf)
 - Complete [Assignment 1](../img/images/assign1.pdf)
+- [R script for class](../img/images/rscript_introR.R)
+
 
 #### Wednesday, September 6th: Causal Inference
 - Read chp. 1-2 of FPP
