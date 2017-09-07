@@ -16,3 +16,9 @@ Below you will find notes and print outs for Pols209-- Fall 2017
 
 ## Getting Started in R
 [Notes on Getting Started in R](../img/images/notes-04-computing.pdf)
+
+## Loading Data
+[Notes on loading data in R](../img/images/notes-05-loading-data.pdf)
+
+## Histograms
+[Notes on Histogram](../img/images/notes-08-histograms-r.pdf)
