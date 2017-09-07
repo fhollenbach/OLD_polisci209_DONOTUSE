@@ -51,7 +51,7 @@ variable2 <- 10
 variable1 + variable2
 9 + 10
 ### or:
-variable1/variable2
+variable3 <- variable1/variable2
 9/10
 ### we can also combine variables and numbers
 variable1+10
@@ -65,7 +65,7 @@ variable1 <- variable2
 
 ### just calling the variable name will print its value
 variable1
-
+print(variable1)
 ### functions are essentially tiny programs that do one thing
 ### for example, sqrt() is a function to calculate the square root
 
@@ -73,7 +73,7 @@ variable1
 ### functions perform operations on one or multiple arguments, which are written between the parantheses
 ### you can access help files or explanations for funtions by calling help(sqrt) or ?sqrt
 help(sqrt) 
-
+sqrt(9)
 ### ??sqrt() will show all the help files containing the term sqrt 
 
 ### often functions have more than one argument, for example the log() function takes an argument for the base
@@ -115,14 +115,14 @@ opinion <- c(1,5,1,1,5)
 
 #### ### we can also create vectors out of factors, meaning there are different categories
 ### factors are like integers but with labels
-class(vector2) ### tells us the type/class of vector
+class(vector1) ### tells us the type/class of vector
 
 
 ### let's make this a factor variable
 gender <- factor(gender, levels = c("male", "female")) ### using the factor variable, see the helpfile
 gender
 help(factor)
-
+class(gender)
 ### some times we have categories that also have an ordering, 
 ### for example, education levels
 education_levels <- c("high school", "college", "kindergarten", "college", "PhD", "high school", "kindergarten")
@@ -135,26 +135,33 @@ education_levels
 ### this means we can do lot's of operations on vectors (if they are numeric)
 ### for example: 
 vector1 <- c(1,2,3,4,5)
-vector2 <- seq(1,5,1)
+vector2 <- seq(1,6,1)
 
 
 ### when operations with a scalar (one number) are done on a vector, it applies to each element (i.e. each number) in the vector
 vector1/5 ### divides every element of the vector by five
 vector1 - 4 ### subtracts 4 from each element
+sqrt(vector1)
 
 ### you can also replace the old vector with the new result
 vector1 <- vector1 - 4 ### subtracts 4 from each element
-
+vector1
 
 ### we can also divide (or any other operation) a vector by a vector, BUT only if they are the same length
 ### now each element is divided by the corresponding element in the other vector
 vector1/vector2
 vector1 + vector2
 
+
+sqrt(9)
+sqrt(vector2)
+
+
+
 #### lastly there are logical statements: TRUE or FALSE
 ### these can be assigned to objects as well
 object1 <- TRUE
-object1
+object1 <-FALSE
 
 
 ### R can also evaluate statements, use "==" to do so
@@ -162,16 +169,46 @@ object1
 3 == 4
 
 2-9 == -7
-
+9 < 10
 #### aside from numbers and characters, R has some special characters
 ## NA means the observation is missing or has no value
 
-vector1 <- vector2 <- c("male", "female", "NA", "male", "female")
+vector1 <- vector2 <- c("male", "female", NA, "male", "female")
 
 ### inf means the value is infinite, and -inf is negative infinity
 ### Example:
 100/0
 log(0)
+
+
+##### you might ask why NA would ever exist, since it could just be a shorter vector...
+#### but often we have multiple vectors of variables for different subjects of our study
+### for example, let's assume we have a survey of all our class mates (assume there are just 10)
+gender <- factor(c("male", "female", "male", "male", "male", "female", "male", "female", "female", "female") , levels = c("male", "female")) ### using the factor variable, see the helpfile
+##### one variable for gender
+### next variable records age 
+age <- c(20, 21, 23, 22, 20, 18, 22, 29, 21, 22)
+#### next variable records their opininon on the class on a scaled from 1 - 10 , but person 7 didnt answer the question
+opinion <- c(9,8,10,10,9,1,NA,7,8,10)
+#### so the missing observation can't be at the end, has to be person 7
+
+##### given that each element of the vector corresponds to one student's answer on a particular question, the order matters
+#### instead of keeping the data in vectors, we often have it in data.frames, 
+#### data.frames are like a collection of variables, where one row is one observation on many variables and one column is all observations for one variable
+#### let's put these variables in a data.frame
+
+survey.data <- data.frame(gender, age, opinion)
+### given that our data set is small we can look at it
+survey.data
+
+### often, however, we have large data sets and it is nearly impossible to look at every value
+head(survey.data)
+### function that prints first 6 observation of each variable
+### but takes second argument, where you can specify number of observations shown
+head(survey.data, n = 2)
+tail(survey.data)
+#### summarizes each variable
+summary(survey.data)
 
 
 
@@ -189,5 +226,7 @@ install.packages("ggplot2") ### this is a package that makes nice plots
 ### now once it is installed, you need to load the package prior to using it after you started R
 ### like so:
 library(ggplot2)
+
+
 
 

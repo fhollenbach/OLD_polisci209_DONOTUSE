@@ -399,24 +399,22 @@ notification.
 - Read chp. 1-2 of FPP
 
 
-#### Friday, September 8th: Loading data into R & Histograms
-- Review notes on loading data in R
-- Read ch. 3 of FPP
-- Complete Assignment 2
+#### Friday, September 8th: Catching Up + Loading data into R & Histograms
+- Review [notes on loading data in R](../img/images/notes-05-loading-data.pdf)
 
 
 ### Week 3
 
-#### Monday, September 11th: Histograms in R + Average and SD
-- Read notes on Histogram
+#### Monday, September 11th: Catching Up + Histograms in R 
+- Read ch. 3 of FPP
+- Read [notes on Histogram](../img/images/notes-08-histograms-r.pdf)
+- Complete Assignment 2
+
+
+
+
+#### Wednesday, September 13th: Catching Up + Average and SD
 - Read ch. 4 of FPP.
-- Complete Assignment 3
-
-
-
-
-#### Wednesday, September 13th: Boxplots and Densities in R
-- Read notes on Boxplots
 
 
 
