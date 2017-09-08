@@ -45,12 +45,13 @@ description: Introduction to Political Research Methods
 #### Monday, September 11th: Catching Up + Histograms in R 
 - Read ch. 3 of FPP
 - Read [notes on Histogram](../img/images/notes-08-histograms-r.pdf)
-- Complete Assignment 2
+- Complete [Assignment 2](../img/images/assign2.pdf)
 
 
 
-#### Wednesday, September 13th: Boxplots and Densities in R
-- Read notes on Boxplots
+
+#### Wednesday, September 13th: Catching Up + Average and SD
+- Read ch. 4 of FPP.
 
 
 
@@ -61,7 +62,6 @@ description: Introduction to Political Research Methods
 #### Friday, September 15th: Starting Writing Assignment 1
 - __Meeting in Lab today__
 - Bring laptop if you have one
-- Complete Assignment 4
 
 
 
@@ -70,7 +70,7 @@ description: Introduction to Political Research Methods
 #### Monday, September 18th: Average and SD in R + Normal Approximation
 - Review Notes on Average and SD in R
 - Read ch. 5 of FPP
-
+- Complete Assignment 3
 
 
 

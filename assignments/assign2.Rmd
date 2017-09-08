@@ -1,5 +1,5 @@
 ---
-title: "Assignment1 -- Polisci 209 -- Due in class on Sept 4"
+title: "Assignment 2 -- Polisci 209 -- Due in class on Sept 11"
 output: pdf_document
 ---
 
@@ -7,11 +7,27 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Assignment 1
-1. Come up with two questions that could be asked by political scientists. One question should be clearly normative and one causal. 
+## Assignment 2
+Do the following 3 exercises in FPP:
 
-2. Read the following subsections on the wikipedia page on Falsifiability [https://en.wikipedia.org/wiki/Falsifiability](https://en.wikipedia.org/wiki/Falsifiability): __Overview__, __Naïve falsification__, and __Falsificationism__. What is the story on swans about?
 
-3. Joe and Kate have a theory that more education leads to stonger political interests and makes people more likely to vote. Can you think of two empirical implcations that should follow from this theory and that we could test?
+1. Review exercise 1 in chapter 2 of FPP (page 24)
 
-4. What are the 3 steps in the scientific process according to Feynman's 1 minute lecture?
+
+2. Review exercise 8 in chapter 2 of FPP (page 26) -- Hint: Think about the length of the time period mentioned...
+
+
+3. Review exercise 11 in chapter 2 of FPP (page 27) 
+
+Next:
+
+4. Think of two variables that you believe are likely (or know) to be correlated with each other. Then think of a possible confounding factor Z, that is related to both. Describe why you think your Z might confound the relationship. 
+
+5. R- homework: Open R-studio and start a new script. Once you are done, print the script and hand it in as part of your homework.
+    - Start your script with commenting a title, your name, and today's date. 
+    - Create a new vector with the name of your choice (but not named vector1), that is filled with all even numbers between (but excluding) 0 and 12 (it should be of length 5...)
+    - Create a second vector with five different numbers in it
+    - Take the square root of all numbers in both the vectors you created. 
+    - Divide first vector by the second vector
+    - Install and load the package ggplot2 
+
