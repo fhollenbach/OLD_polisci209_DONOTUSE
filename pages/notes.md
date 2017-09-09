@@ -6,6 +6,7 @@ description: Notes will be posted here
 
 Below you will find notes and print outs for Pols209-- Fall 2017
 
+- These excellent notes were created by [Carlisle Rainey](http://www.carlislerainey.com/)
 
 ## Questions
 [Notes on Questions](../img/images/notes-02-questions.pdf)
