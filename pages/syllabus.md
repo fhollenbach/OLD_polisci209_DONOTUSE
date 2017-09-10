@@ -401,6 +401,7 @@ notification.
 
 #### Friday, September 8th: Catching Up + Loading data into R & Histograms
 - Review [notes on loading data in R](../img/images/notes-05-loading-data.pdf)
+- [Slides for Week 2](../img/images/slidesRCausal.pdf)
 
 
 ### Week 3
