@@ -52,8 +52,12 @@ description: Introduction to Political Research Methods
 
 
 
+
+
 #### Wednesday, September 13th: Catching Up + Average and SD
 - Read ch. 4 of FPP.
+- [Rcode Histograms](../img/images/RcodeHistograms.R)
+- [Data from class](../img/images/data.csv)
 
 
 
@@ -62,7 +66,6 @@ description: Introduction to Political Research Methods
 
 
 #### Friday, September 15th: Starting Writing Assignment 1
-- __Meeting in Lab today__
 - Bring laptop if you have one
 
 
@@ -72,20 +75,18 @@ description: Introduction to Political Research Methods
 #### Monday, September 18th: Average and SD in R + Normal Approximation
 - Review Notes on Average and SD in R
 - Read ch. 5 of FPP
-- Complete Assignment 3
-
 
 
 
 
 #### Wednesday, September 20th: FASB Panel
-- __Email Writing Assignmment 1 to peer review partner__
+- __Email Writing Assignmment 1 to peer review partner__ 
 
 
 #### Friday, September 22th: Measurement + Measurement Exercise
 - Read ch. 6 of FPP.
-- __Send Writing Assignment 1 Comments to peer review partner__
-- Complete Assignment 5
+- __Send Writing Assignment 1 Comments to peer review partner__ (counts as assignment 3)
+
 
 
 

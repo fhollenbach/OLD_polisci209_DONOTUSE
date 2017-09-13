@@ -416,6 +416,9 @@ notification.
 
 #### Wednesday, September 13th: Catching Up + Average and SD
 - Read ch. 4 of FPP.
+- [Rcode Histograms](../img/images/RcodeHistograms.R)
+- [Data from class](../img/images/data.csv)
+
 
 
 
@@ -423,7 +426,6 @@ notification.
 
 
 #### Friday, September 15th: Starting Writing Assignment 1
-- __Meeting in Lab today__
 - Bring laptop if you have one
 
 
@@ -433,19 +435,17 @@ notification.
 #### Monday, September 18th: Average and SD in R + Normal Approximation
 - Review Notes on Average and SD in R
 - Read ch. 5 of FPP
-- Complete Assignment 3
 
 
 
 
 #### Wednesday, September 20th: FASB Panel
-- __Email Writing Assignmment 1 to peer review partner__
+- __Email Writing Assignmment 1 to peer review partner__ 
 
 
 #### Friday, September 22th: Measurement + Measurement Exercise
 - Read ch. 6 of FPP.
-- __Send Writing Assignment 1 Comments to peer review partner__
-- Complete Assignment 5
+- __Send Writing Assignment 1 Comments to peer review partner__ (counts as assignment 3)
 
 
 
@@ -456,12 +456,12 @@ notification.
 
 #### Monday, September 25th: Scatterplots and Correlation
 - Read chs. 7-8 of FPP
-- Complete Assignment 6
+- Complete Assignment 4
 
 
 #### Wednesday, September 27th: Scatterplots and Correlation in R
 - Review Notes on Scatterplots and Correlation in R
-- Play this game [(web)](http://www.rossmanchance.com/applets/GuessCorrelation.html) and track your performance.
+- [Play this game (web)](http://www.rossmanchance.com/applets/GuessCorrelation.html) and track your performance.
 - Read ch. 9.5
 
 
