@@ -1,0 +1,40 @@
+---
+title: "Writing Assignment 1 -- Polisci 209"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Writing Assignment 1
+#### First Draft due on September 22nd, Final Paper due on September 29th
+
+For this assignment you need to download the NOMINATE data file from the course website. Here is a link to the data: [https://fhollenbach.github.io/polisci209_fall2017/img/images/data/nominate.csv](https://fhollenbach.github.io/polisci209_fall2017/img/images/data/nominate.csv). Read the data into _RStudio_ and play around for a bit. There are six different variables in this dataset. The variables included are the following:
+
+1. congress -- this is the session of Congress for which the data is recorded
+2. state -- this variable records the state the lawmaker is from
+3. congressional_district -- this variable records the congressional district for a given observation
+4. party -- this variable records the party id of the member in this observation
+5. name -- this variable records the name of the member of Congress for this observation
+6. ideology_score -- this variable is the NOMINATE score for a member of Congress for the given year
+
+These data include ideology scores from the 100th through the 114th Congress (only the House is included, but the same data exist for the Senate). Ideology is measured using the voting record of each member of Congress and is known  in political science as the first dimension of the __DW NOMINATE__ score. It was originally created by Keith Poole and Howard Rosenthal. More negative scores on this scale indicate more liberal members of Congress and more positive scores indicate more conservative members. Here is an example of an article where the DW NOMINATE scores are used:[https://fivethirtyeight.com/datalab/the-house-and-senate-are-the-most-divided-theyve-been-in-our-lifetimes/] (https://fivethirtyeight.com/datalab/the-house-and-senate-are-the-most-divided-theyve-been-in-our-lifetimes/). 
+
+To begin, you should look at your data. Use either the ```head()``` or ```tiblle::glimpse``` functions. You can see the type of each of the variables. For example, the __party__ variable is currently a character variable, yet it should be a factor variable with two levels. As a first step, declare the party variable a factor variable with the correct two levels. 
+
+For this writing assignment, you must describe the data in this dataset and how ideology scores for each party developed over time. You should start by explaining the time period that is covered and which Congress was in session when. Next, you should have a short section explaining what the measure of ideology is, i.e. what is a DW NOMINATE score and where does it come from. You are allowed to use this source to do some research about the ideology scores: [https://en.wikipedia.org/wiki/NOMINATE_(scaling_method)](https://en.wikipedia.org/wiki/NOMINATE_(scaling_method)). Make sure you provide citations for any outside sources you use, even if it is the text book (if you are unsure how or when to cite, see: [http://library.tamu.edu/services/library_tutorials/citing_sources/index.html](http://library.tamu.edu/services/library_tutorials/citing_sources/index.html)). 
+
+Once you have explained the measure of ideology used here, you should go on to describe the data. You can use the ```summary()``` function to get summary statistics of variables and subsets of the data. Or you calculate mean, standard deviation using the ```mean()``` and ```sd()``` functions. In addition to these statistics, you should provide plots (e.g. histograms or density plots). Make sure you discuss each plot that you put in your paper extensively. Use the statistics and make plots for subsets of the data to provide an understanding of the data at hand and the development over time for both parties. You should describe both the general location (e.g. mean) of ideologies for both parties over time, as well as the spread. 
+
+Great assignments will be clearly and concisely written, have very few grammatical or spelling errors, and will describe plots and statistics in detail. Write as if this paper will be used to explain the development of these scores to your grandmother. Explain everything, like your reader knows nothing about the topic. Your conclusion should include some speculation about why the development you observe occured.
+
+Your paper should be between 700 and 1000 words and follow the following format:
+  - 12 point, Times New Roman Font, for the main body text.
+  - Double-space the main body of the text.
+  - Use section and subsection headings, with larger or different font as you see fit.
+  - 1 inch margins.
+  - Include your name, the title of your paper, and the word count on the first page of your paper.
+  - Beyond the points above, your paper should look and sound professional. You will be graded on completeness of the assignment, grammar, spelling, and creativity. Make sure to proofread before submitting!
+
+__SUBMISSION__ of first draft: __Prior to class on Friday, September 22__ via email to your peer reviewer (list will be provided later) __and__ the TA John Niehaus (niehausjm@tamu.edu). The final draft will be due on September 29 via turnitin on eCampus.

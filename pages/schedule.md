@@ -63,11 +63,10 @@ description: Introduction to Political Research Methods
 
 
 
-
-
 #### Friday, September 15th: Starting Writing Assignment 1
 - Bring laptop if you have one
-
+- [Data for Writing Assignment](../img/images/data/nominate.csv)
+- [Writing Assignment 1](../img/images/WritingAssignment.pdf)
 
 
 ### Week 4
@@ -80,16 +79,11 @@ description: Introduction to Political Research Methods
 
 
 #### Wednesday, September 20th: FASB Panel
-- __Email Writing Assignmment 1 to peer review partner__ 
 
 
 #### Friday, September 22th: Measurement + Measurement Exercise
 - Read ch. 6 of FPP.
-- __Send Writing Assignment 1 Comments to peer review partner__ (counts as assignment 3)
-
-
-
-
+- __Email Writing Assignmment 1 to peer review partner__ 
 
 
 
@@ -97,12 +91,12 @@ description: Introduction to Political Research Methods
 
 #### Monday, September 25th: Scatterplots and Correlation
 - Read chs. 7-8 of FPP
-- Complete Assignment 6
+- __Send Writing Assignment 1 Comments to peer review partner__ (counts as assignment 3)
 
 
 #### Wednesday, September 27th: Scatterplots and Correlation in R
 - Review Notes on Scatterplots and Correlation in R
-- Play this game [(web)](http://www.rossmanchance.com/applets/GuessCorrelation.html) and track your performance.
+- [Play this game (web)](http://www.rossmanchance.com/applets/GuessCorrelation.html) and track your performance.
 - Read ch. 9.5
 
 
@@ -117,11 +111,7 @@ description: Introduction to Political Research Methods
 
 #### Monday, October 2th: Regression
 - Read ch. 12 of FPP
-- Complete Assignment 7
-
-
-
-
+- Complete Assignment 4
 
 
 #### Wednesday, October 4th: Regression in R

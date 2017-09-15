@@ -427,7 +427,8 @@ notification.
 
 #### Friday, September 15th: Starting Writing Assignment 1
 - Bring laptop if you have one
-
+- [Data for Writing Assignment](../img/images/data/nominate.csv)
+- [Writing Assignment 1](../img/images/WritingAssignment.pdf)
 
 
 ### Week 4
@@ -440,12 +441,11 @@ notification.
 
 
 #### Wednesday, September 20th: FASB Panel
-- __Email Writing Assignmment 1 to peer review partner__ 
 
 
 #### Friday, September 22th: Measurement + Measurement Exercise
 - Read ch. 6 of FPP.
-- __Send Writing Assignment 1 Comments to peer review partner__ (counts as assignment 3)
+- __Email Writing Assignmment 1 to peer review partner__ 
 
 
 
@@ -456,7 +456,7 @@ notification.
 
 #### Monday, September 25th: Scatterplots and Correlation
 - Read chs. 7-8 of FPP
-- Complete Assignment 4
+- __Send Writing Assignment 1 Comments to peer review partner__ (counts as assignment 3)
 
 
 #### Wednesday, September 27th: Scatterplots and Correlation in R
@@ -476,7 +476,7 @@ notification.
 
 #### Monday, October 2th: Regression
 - Read ch. 12 of FPP
-- Complete Assignment 7
+- Complete Assignment 4
 
 
 
