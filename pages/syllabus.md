@@ -434,13 +434,15 @@ notification.
 ### Week 4
 
 #### Monday, September 18th: Average and SD in R + Normal Approximation
-- Review Notes on Average and SD in R
+- [Review Notes on Average and SD in R](../img/images/notes-10-average-sd-r.pdf)
 - Read ch. 5 of FPP
 
 
 
 
-#### Wednesday, September 20th: FASB Panel
+#### Wednesday, September 20th: Catch-up Normal Approximation
+- [Review Notes on Average and SD in R](../img/images/notes-10-average-sd-r.pdf)
+- Read ch. 5 of FPP
 
 
 #### Friday, September 22th: Measurement + Measurement Exercise

@@ -20,15 +20,10 @@ library("tidyverse")
 
 
 ### we are now ready to load our data set
-
-#income_data <- readr::read_csv("~/Dropbox/TAMU/Teaching/Fall2017/slides/week3/data.csv")
-### this is for mac, you need to change the path to where you saved the file
-### mac:
-income_data <- readr::read_csv("~/Desktop/class209/data.csv")
-
-### your windows path would be something like this
-#### income_data <- readr::read_csv("C:\\Users\\fhollenbach\\Desktop\\class209\\data.csv")
-
+income_data <- readr::read_csv("~/Dropbox/TAMU/Teaching/Fall2017/slides/week3/data.csv")
+#data <- readr::read_csv("~/Desktop/class209/data.csv")
+#readr::read_csv("C:\\Users\\fhollenbach\\Desktop\\class209\\data.csv")
+income_data$democracy <- factor(income_data$democracy, levels = c(0,1))
 
 ### remeber the head function, glimpse in tiblle does the same
 tibble::glimpse(income_data)
@@ -60,7 +55,7 @@ ggplot(data = income_data, aes(x = lGDP, y = ..density..)) + geom_histogram() ##
 
 
 #### we can subset data frames and assign the subset to new objects using the subset() function
-data2010 <- subset(income_data, Year == 2010) ## remember to use == not +
+data2010 <- subset(income_data, Year == 2010 & democracy == 1) ## remember to use == not +
 ### same plot for 2010
 ggplot(data = data2010, aes(x = lGDP, y = ..density..)) + geom_histogram() ###aes is the aesthetic argument, here we tell ggplot we want logged GDP on the x-axis
 
@@ -95,3 +90,54 @@ ggplot(data2010, aes(x = lGDP, color = democracy, fill = democracy)) + geom_dens
 ggplot(income_data, aes(x = lGDP, fill = democracy)) +
   geom_density(alpha = 0.5) +
   facet_wrap(~Year)
+
+
+mean(income_data$lGDP, na.rm = TRUE)
+mean(data2010$lGDP, na.rm =TRUE)
+
+
+
+sum(income_data$lGDP, na.rm = TRUE)/length(income_data$lGDP)
+
+
+median(income_data$lGDP, na.rm = TRUE)
+
+sd(income_data$lGDP, na.rm = TRUE)  #### divides by (N-1)
+IQR(income_data$lGDP, na.rm = TRUE)
+
+
+### simple example of sd, see difference which is caused by r dividing by N-1
+x <- c(1,3,4,5,7)
+sd(x)
+sqrt((sum((x-4)^2))/5)
+
+
+
+#### doing sd by hand
+sqrt(sum((income_data$lGDP - mean(income_data$lGDP, na.rm = TRUE))^2,na.rm = T)/(length(income_data$lGDP)))
+
+deviation <- income_data$lGDP - mean(income_data$lGDP, na.rm = TRUE)
+deviation2 <- deviation^2
+sum_square <- sum(deviation2, na.rm =T)
+fraction <- sum_square/length(income_data$lGDP)
+SD <- sqrt(fraction)
+
+sd(income_data$lGDP, na.rm =T)
+####### 
+### let's do some means
+
+###you can use the mean function on vectors
+
+
+
+
+#### subsetting the data by two groups. 
+library(tidyverse)
+
+grouped_data <- group_by(income_data, Year, democracy)
+grouped_data
+
+summarized_data <- summarize(grouped_data, mean_tax = mean(tottax, na.rm= T), sd_tax = sd(tottax, na.rm = T) )
+summarized_data$democracy = factor(summarized_data$democracy, levels = c(0,1))
+
+ggplot(data = summarized_data, aes(x = Year, y = mean_tax, color = democracy)) + geom_line()
