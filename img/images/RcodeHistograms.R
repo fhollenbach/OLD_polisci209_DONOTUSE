@@ -138,6 +138,17 @@ grouped_data <- group_by(income_data, Year, democracy)
 grouped_data
 
 summarized_data <- summarize(grouped_data, mean_tax = mean(tottax, na.rm= T), sd_tax = sd(tottax, na.rm = T) )
-summarized_data$democracy = factor(summarized_data$democracy, levels = c(0,1))
+
 
 ggplot(data = summarized_data, aes(x = Year, y = mean_tax, color = democracy)) + geom_line()
+
+ggplot(data = summarized_data, aes(x = Year, y = mean_tax, color = democracy)) + geom_line() + 
+  labs(x = "Year",
+     y = "Average Taxation as % GDP",
+     color = "Regime Type",
+     title = "Tax Revenue by Regime over time",
+     subtitle = "Democracies Tax More",
+     caption = "ICRG Tax Data and Boix on Regime") +
+  theme_bw()
+
+ggsave("~/Desktop/myplot.pdf")
