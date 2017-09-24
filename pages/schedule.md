@@ -87,6 +87,7 @@ description: Introduction to Political Research Methods
 #### Friday, September 22th: Measurement + Measurement Exercise
 - Read ch. 6 of FPP.
 - __Email Writing Assignmment 1 to peer review partner__ 
+- [Slides from last week](../img/images/slidesHistogramsMeanSD.pdf)
 
 
 
