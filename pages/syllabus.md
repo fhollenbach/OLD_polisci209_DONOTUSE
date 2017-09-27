@@ -467,7 +467,7 @@ notification.
 
 
 #### Friday, September 29th: Regression
-- Review Notes on Scatterplots and Correlation in R
+- [Review Notes on Scatterplots and Correlation in R](../img/images/notes-18-correlation-r.pdf)
 - Read ch. 9.5 & 10 
 - __Writing Assignment due today__
 
@@ -478,7 +478,7 @@ notification.
 
 #### Monday, October 2th: Regression
 - Read ch. 11 of FPP
-- Complete Assignment 4
+- [Complete Assignment 4](../img/images/assign4.pdf)
 
 
 
@@ -492,7 +492,8 @@ notification.
 
 
 #### Friday, October 6th: Review for Exam
- 
+ - [Complete Assignment 5](../img/images/assign5.pdf)
+
 
 
 
@@ -524,9 +525,8 @@ notification.
 ### Week 8
 
 #### Monday, October 16th:  Getting Started on Writing Assignment 2
-- __Meet in lab__
 - Bring laptop
-- Complete Assignment 5
+- Complete Assignment 6
 
 
 
