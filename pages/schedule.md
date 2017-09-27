@@ -3,7 +3,10 @@ title: Class Schedule for Polisci 209 -905 and 209-906
 description: Introduction to Political Research Methods
 ---
 
-## Schedule for Polisci 209 -- FALL 2017 (as of August 25, 2017)
+## Schedule for Polisci 209 -- FALL 2017 (as of September 27, 2017)
+
+
+### Class Schedule
 
 
 ### Week 1
@@ -32,6 +35,7 @@ description: Introduction to Political Research Methods
 - Complete [Assignment 1](../img/images/assign1.pdf)
 - [R script for class](../img/images/rscript_introR.R)
 
+
 #### Wednesday, September 6th: Causal Inference
 - Read chp. 1-2 of FPP
 
@@ -40,7 +44,6 @@ description: Introduction to Political Research Methods
 - Review [notes on loading data in R](../img/images/notes-05-loading-data.pdf)
 - [Slides for Week 2](../img/images/slidesRCausal.pdf)
 - [Data](../img/images/data.zip)
-
 
 ### Week 3
 
@@ -52,12 +55,12 @@ description: Introduction to Political Research Methods
 
 
 
-
-
 #### Wednesday, September 13th: Catching Up + Average and SD
 - Read ch. 4 of FPP.
 - [Rcode Histograms](../img/images/RcodeHistograms.R)
 - [Data from class](../img/images/data.csv)
+
+
 
 
 
@@ -83,11 +86,12 @@ description: Introduction to Political Research Methods
 - Read ch. 5 of FPP
 
 
-
 #### Friday, September 22th: Measurement + Measurement Exercise
 - Read ch. 6 of FPP.
 - __Email Writing Assignmment 1 to peer review partner__ 
 - [Slides from last week](../img/images/slidesHistogramsMeanSD.pdf)
+
+
 
 
 
@@ -99,13 +103,13 @@ description: Introduction to Political Research Methods
 
 
 #### Wednesday, September 27th: Scatterplots and Correlation in R
-- Review Notes on Scatterplots and Correlation in R
+- [Slides on Correlation](../img/images/correlationScatterPlots.pdf)
 - [Play this game (web)](http://www.rossmanchance.com/applets/GuessCorrelation.html) and track your performance.
-- Read ch. 9.5
 
 
 #### Friday, September 29th: Regression
-- Read chs. 10-11 of FPP
+- Review Notes on Scatterplots and Correlation in R
+- Read ch. 9.5 & 10 
 - __Writing Assignment due today__
 
 
@@ -114,12 +118,17 @@ description: Introduction to Political Research Methods
 ### Week 6
 
 #### Monday, October 2th: Regression
-- Read ch. 12 of FPP
+- Read ch. 11 of FPP
 - Complete Assignment 4
 
 
-#### Wednesday, October 4th: Regression in R
 
+
+
+
+#### Wednesday, October 4th: Regression in R
+- Read ch. 12 of FPP
+- Read notes on Regression in R
 
 
 
@@ -138,8 +147,7 @@ description: Introduction to Political Research Methods
 
 
 #### Wednesday, October 11th: Multiple Regression
-- Complete Assignment 8
- 
+
 
 
 
@@ -159,7 +167,7 @@ description: Introduction to Political Research Methods
 #### Monday, October 16th:  Getting Started on Writing Assignment 2
 - __Meet in lab__
 - Bring laptop
-- Complete Assignment 9
+- Complete Assignment 5
 
 
 
@@ -203,15 +211,12 @@ Law of Averages
 
 #### Wednesday, October 25th: Expected Value and Standard Error
 - Read ch. 17 of FPP.
-- __Writing Assignment 2 due today__
-
-- Complete Assignment 11
 
 
 
 #### Friday, October 27th: Normal Approximation for Probability Histograms
 -  Read ch. 18 of FPP
-
+- __Writing Assignment 2 due today__
 
 
 
@@ -221,7 +226,7 @@ Law of Averages
 
 #### Monday, October 30: Sample Surveys I
 -  Read ch. 19 of FPP. 
-- Complete Assignment 12
+- Complete Assignment 6
 
 
 
@@ -229,7 +234,7 @@ Law of Averages
 
 #### Wednesday, November 1st: Sample Surveys II
 - Read ch. 20 of FPP.
-- Complete Assignment 13
+
 
 
 
@@ -243,7 +248,7 @@ Law of Averages
 
 #### Monday, November 6th:  Surveys in the Real World
 - Read ch. 22 of FPP
-- Complete Assignment 14 
+- Complete Assignment 7
 
 
 
@@ -252,7 +257,6 @@ Law of Averages
 
 #### Wednesday, November 8th: The Accuracy of Averages
 - Read ch. 23 of FPP
-- Complete Assignment 15 
 
 
 
@@ -262,18 +266,18 @@ Law of Averages
 #### Friday, November 10th: Working on Writing Assingment 3
 - __Meet in lab__
 - Bring laptop
-- Complete Assignment 16 
 
 
 ### Week 12
 
 #### Monday, November 13th: Null hypothesis and Significance test
 - Read ch. 26 of FFP
+- Complete Assignment 8
 
 
 #### Wednesday, November 15th:  More Tests for Averages 
 - Read ch. 27 of FPP
-- __Send writing assigment 2 to peer review partner__
+- __Send writing assigment 3 to peer review partner__
 
 
 #### Friday, November 17th: Class Canceled, Prof at conference
@@ -282,7 +286,7 @@ Law of Averages
 
 #### Monday, November 20th: Chi-squared tests
 - Read ch. 28 of FPP
-- __Send Writing Assignment 2 Comments to peer review partner__
+- __Send Writing Assignment 3 Comments to peer review partner__
 - Complete Assignment 17 
 
 
@@ -314,3 +318,4 @@ Turkey Break!
 
 #### Wednesday, December 6th
 - Review for exam
+

@@ -14,9 +14,8 @@ library(ggplot2)
 ### ggplot also comes within a different package suit that we will use, but it is good to know you installed it separately
 ### let's install tidyverse which allows us to manipulate and play with data
 
-install.packages("tidyverse")
 ### load tidyverse
-library("tidyverse")
+library(tidyverse)
 
 
 ### we are now ready to load our data set
@@ -152,3 +151,52 @@ ggplot(data = summarized_data, aes(x = Year, y = mean_tax, color = democracy)) +
   theme_bw()
 
 ggsave("~/Desktop/myplot.pdf")
+
+
+
+ggplot(data = data2010, aes(x = lGDP, y = TotalTax)) + geom_point() ###aes is the aesthetic argument, here we tell ggplot we want logged GDP on the x-axis
+
+data2010 <- subset(data2010, complete.cases(data2010))
+ggplot(data = data2010, aes(x = lGDP, y = tottax)) + geom_point() + 
+  labs(x = "logged GDP",
+       y = "Average Taxation as % GDP",
+       title = "Tax Revenue vs logged GDP") + theme_bw()
+ggsave("~/Desktop/myplot.pdf")
+
+
+ggplot(data = data2010, aes(x = totrev, y = tottax)) + geom_point() + 
+  labs(x = "Revenue as % GDP",
+       y = "Taxation as % GDP",
+       title = "Tax Revenue vs total Revenue") + theme_bw() + geom_point(aes(x = mean(data2010$totrev),y =mean(data2010$tottax)), color = "red")
+ggsave("~/Desktop/myplot.pdf")
+
+mean(data2010$totrev)
+sd_totrev = sqrt(sum((data2010$totrev - mean(data2010$totrev))^2)/(length(data2010$totrev)))
+mean(data2010$totrev)
+
+sd_tottax = sqrt(sum((data2010$tottax - mean(data2010$tottax))^2)/(length(data2010$tottax)))
+mean(data2010$tottax)
+
+
+
+cor(data2010$totrev, data2010$tottax)
+
+x1 <- rnorm(10000, 0,1)
+x2 <- rnorm(10000, 0, 1) + rnorm(10000,0,1)
+
+x <- data.frame(c(x1,x2), c(rep("X", 10000), rep("X w error", 10000)))
+names(x) <- c("data", "var")
+ggplot(data = x, aes(x = data, color = var)) + geom_density(size = 1) ###aes is the aesthetic argument, here we tell ggplot we want logged GDP on the x-axis
+ggsave("~/Desktop/myplot.pdf")
+
+
+
+
+x1 <- rnorm(10000, 0,1)
+x2 <- rnorm(10000, 0, 1) + rnorm(10000,2,1)
+
+x <- data.frame(c(x1,x2), c(rep("X", 10000), rep("X w error", 10000)))
+names(x) <- c("data", "var")
+ggplot(data = x, aes(x = data, color = var)) + geom_density(size = 1) ###aes is the aesthetic argument, here we tell ggplot we want logged GDP on the x-axis
+ggsave("~/Desktop/myplot.pdf")
+
