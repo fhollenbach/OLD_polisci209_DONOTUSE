@@ -16,8 +16,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 3. In FPP, Chapter 6, Special Review Exercise 8 (page 106)
 
-4. In FPP, Chapter 8, Review Exercise 1 (page 134)
+4. In FPP, Chapter 8, Review Exercise 7 (page 136)
 
-5. In FPP, Chapter 8, Review Exercise 7 (page 136)
+5. In FPP, Chapter 8, Review Exercise 9 (page 137)
 
-6. In FPP, Chapter 8, Review Exercise 9 (page 137)
+6. In FPP, Chapter 10, Review Exercise 3 (page 176)
