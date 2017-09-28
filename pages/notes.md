@@ -23,3 +23,10 @@ Below you will find notes and print outs for Pols209-- Fall 2017
 
 ## Histograms
 [Notes on Histogram](../img/images/notes-08-histograms-r.pdf)
+
+
+## Average and SD
+[Notes on Average and SD in R](../img/images/notes-10-average-sd-r.pdf)
+
+## Correlation and Scatter Plots
+[Notes on Scatterplots and Correlation in R](../img/images/notes-18-correlation-r.pdf)

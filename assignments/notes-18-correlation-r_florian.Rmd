@@ -1,0 +1,177 @@
+---
+title: ""
+template: default
+output:
+  pdf_document: default
+  html_document:
+    fig_height: 3
+    fig_width: 5
+    highlight: textmate
+    theme: united
+    toc: yes
+---
+
+
+# Scatterplot and Correlation in R
+
+## Scatterplot
+
+In these notes, we are going to produce some scatter plots regarding seatshares in legislatures and how many cabinet positions parties receive. We will also plot some college football data. The necessary variables are in the data set `gamson.csv` and `CollegeFB.csv`.
+
+```{r}
+# load data
+#### make sure you change the path to where you put the data folder
+gamson <- read.csv("~/Documents/GitHub/polisci209_fall2017/img/images/data/gamson.csv")
+#### make sure you change the path to where you put the data folder
+
+# quick look at data
+tibble::glimpse(gamson)
+```
+
+You can see that the data frame `gamson` has two variables: `seat_share`, and `portfolio`.
+
+Of course, we're going to use ggplot, and we know we'll use `gamson` as the data frame.
+
+In a scatterplot, we usually plot the variable *doing the causing* along the x-axis and the variable *being caused* along the y-axis. It makes sense here that seat shares cause portfolio shares because portfolio shares are determined well after seat shares are determined. Based on this rule, we can quickly figure out what the  x and y aesthetics will be: `x = seat_share` and `y = portfolio_share`. 
+
+All that's left is the geometry. To create a scatterplot, we use `geom_point()`.
+
+```{r, warning=FALSE, message=FALSE, fig.height=3, fig.width=4}
+# load packages
+library(ggplot2)
+
+# create scatterplot
+ggplot(gamson, aes(x = seat_share, y = portfolio_share)) + 
+  geom_point()
+```
+
+## The Size and Color Aesthetics
+Let's read in a different data set. This one is about rushers in college football in 2016/17. 
+```{r}
+# load data
+cfb <- read.csv("~/Documents/GitHub/polisci209_fall2017/img/images/data/CollegeFB.csv")
+#### make sure you change the path to where you put the data folder
+
+# quick look at data
+tibble::glimpse(cfb)
+### let's see how many different values of position there are
+unique(cfb$Position)
+```
+The data set includes the player's name, year in college, position, games played, rushing attempts, rushing yards, and total touchdowns scored. First, let's calculate a 'yard per attempt' and 'TD per attempt' statistic. 
+```{r}
+cfb$yards_carry <- cfb$Yards/cfb$Attempts
+cfb$TDs_carry <- cfb$TDs/cfb$Attempts
+
+### take another look at the data, now with the additional variables
+tibble::glimpse(cfb)
+  
+```  
+
+Let's explain the number of total yards in a season with the number of rushing attempts. Seems like those two should be related. 
+```{r, warning=FALSE, message=FALSE, fig.height=3, fig.width=6}
+# create scatterplot 
+ggplot(cfb, aes(x = Attempts, y = Yards)) + geom_point()
+```
+Now maybe we would also like to see how these two variables are related to total number of touchdowns or TDs per carry. Since a scatterplot only has two spatial aesthetics (horizontal and vertical positioning), we'll have to use other aesthetics. Color and size are two options.
+```{r, warning=FALSE, message=FALSE, fig.height=3, fig.width=6}
+# create scatterplot with color and size aesthetics
+ggplot(cfb, aes(x = Attempts, y = Yards, color = TDs, size = TDs_carry)) + geom_point()
+
+```
+
+**Review Exercises**
+
+1. In creating a scatterplot, what variable do we typically place along the x- and y-axes?
+1. What geometry creates a scatterplot?
+1. Experiment with the x, y, size, and color aesthetics for the cfb data. 
+1. Many authors argue that district magnitude (the number of legislative seats in a districts) causes turnout. In particular, they argue that increasing district magnitude leads to an increase in turnout. The taiwan data set has information that might be useful in testing this hypothesis. Using the data set `taiwan.csv`, create the appropriate scatterplot and evaluate whether the data are consistent with the claim that district magnitude has a large, positive effect on turnout.
+
+## Correlation
+
+In order to compute a correlation in R, we use the `cor()` function. The first argument `x` is the first of the two variables for which we would like to calculate a correlation. The second argument `y` is the second of the two variables. `cor()` is not designed to work with data frames, so we have to use the `data$variable` syntax.
+
+Remember that the textbook defines a correlation as $r = \text{average of }(x \text{ in standard units}) \times (y \text{ in standard units})$. For reasons similar to the SD, most computer programs, including R, divide by the number of entries $ - 1$ rather than the number of entries. For this reason, you'll see small differences between a correlation computed by R and a correlation computed by hand, especially when the number of observations is small. For practical purposes, though, the two approaches are equivalent, especially when we have many observations.
+
+```{r}
+# calculate a correlation
+cor(gamson$seat_share, gamson$portfolio_share)  
+```
+
+For the data frame `cfb` we have some missing data in the variables `Yards` and `Attempts`. If you were to feed this data to R to calculate the correlation, it will return `NA`. In order to drop the incomplete pairs (either x is missing, y is missing, or both), we just supply the argument `use = "pairwise.complete.obs"` to the `cor()` function.
+
+```{r}
+# calculate a correlation
+cor(cfb$Yards, cfb$Attempts) # returns NA
+cor(cfb$Yards, cfb$Attempts, use = "pairwise.complete.obs") # returns NA
+```
+
+**Review Exercises**
+
+1. What function do we use to calculate a correlation in R?
+1. If some observations are missing, what argument to we use to drop those observations?
+1. Does `cor()` take a `data` argument? If not, how do we calculate correlations for variables in data frames?
+1. Using the data set `taiwan.csv`, calculate a correlation to assess whether the data are consistent with the claim that district magnitude has a large, positive effect on turnout.
+
+## Correlation Matrix
+
+Sometimes we want to calculate correlations for many variables at the same time. Each of the correlations is computed in the usual way, except they are presented in a correlation matrix. The `cor` function allows us to compute a correlation matrix quickly if the first argument is a data frame rather than a vector. If the first argument is a data frame, then `cor()` computes correlations between every variables in the data frame.
+
+Note: every variable in the data frame must be numeric.
+
+If we don't want to compute correlations for every variable in the data frame, then we can use the `select()` function from the package dplyr to create a new data frame that includes only certain variables from the original data frame. The first argument to `select()` is the original data frame. The remaining arguments are the variables we want to keep.
+
+```{r}
+# load package
+library(dplyr)  # for select()
+
+# keep only the miles, average_heart_rate, and minutes variables
+numeric_vars <- select(cfb, Yards, yards_carry, TDs, TDs_carry)
+
+# calculate the correlations between every variables in our new data frame
+cor(numeric_vars, use = "pairwise.complete.obs")
+```
+
+We can also store these correlations as an object and create a ggplot that graphically communicates the correlations. The function `ggcorrplot()` in the package ggcorrplot does this automatically without us having to specify a data frame, aesthetics, or geometry. `ggcorrplot()` needs only one argument--the output of the `cor()` function.
+
+```{r, warning=FALSE, message=FALSE, fig.height=4, fig.width=4}
+# calculate the correlations between every variables in our new data frame
+cors <- cor(numeric_vars, use = "pairwise.complete.obs")
+
+# use ggcorrplot()
+library(ggcorrplot)  # for ggcorrplot()
+ggcorrplot(cors)
+```
+
+The data frame `health.csv` contains a lot of variables for which we might like to calculate correlations, so let's take a look.
+
+```{r}
+# load data
+health <- read.csv("~/Documents/GitHub/polisci209_fall2017/img/images/data/health.csv")
+#### make sure you change the path to where you put the data folder
+
+# quick look
+tibble::glimpse(health)
+```
+Let's use the `select()` function to create a new data frame with only numeric variables and then plot a correlation matrix for all of them.
+
+```{r, warning=FALSE, message=FALSE, fig.height=8, fig.width=6}
+# keep only the miles, average_heart_rate, and minutes variables
+numeric_vars <- select(health, percent_favorable_aca, percent_supporting_expansion, 
+                       obama_share_12, ideology, percent_uninsured, 
+                       infant_mortality_rate, cancer_incidence, 
+                       heart_disease_death_rate, life_expectancy)
+
+# calculate the correlations between every variables in our new data frame
+cors <- cor(numeric_vars, use = "pairwise.complete.obs")
+
+# use ggcorrplot()
+ggcorrplot(cors)
+```
+
+**Review Exercises**
+
+1. How can we use the `cor()` function to compute many correlations at once?
+1. What does the `select()` function do? What is the first argument? What are the subsequent arguments? What does it output?
+1. What function can we use to plot a correlation matrix? What argument does it take?
+1. Take a look at the very last figure in this document--the correlation matrix for the health data set. Why is the diagonal completely red? 
+1. Looking at that same figure, how do the measures of state health (i.e., infant mortality rate, cancer incidence, heart disease death rate, and life expectancy) correlate with support for the ACA? Which correlations are in the expected direction?

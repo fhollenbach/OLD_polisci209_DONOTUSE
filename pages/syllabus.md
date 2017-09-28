@@ -448,7 +448,7 @@ notification.
 #### Friday, September 22th: Measurement + Measurement Exercise
 - Read ch. 6 of FPP.
 - __Email Writing Assignmment 1 to peer review partner__ 
-- [Slides from last week](../img/images/slidesHistogramsMeanSD.pdf)
+- [Slides from last week - Histogram, Mean, SD](../img/images/slidesHistogramsMeanSD.pdf)
 
 
 
@@ -468,6 +468,7 @@ notification.
 
 #### Friday, September 29th: Regression
 - [Review Notes on Scatterplots and Correlation in R](../img/images/notes-18-correlation-r.pdf)
+- [College Football Data](../img/images/CollegeFB.csv)
 - Read ch. 9.5 & 10 
 - __Writing Assignment due today__
 
