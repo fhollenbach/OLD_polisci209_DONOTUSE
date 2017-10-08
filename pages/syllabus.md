@@ -488,8 +488,7 @@ notification.
 
 #### Wednesday, October 4th: Regression in R
 - Read ch. 12 of FPP
-- Read notes on Regression in R
-
+- [Slides on Regression](../img/images/regression.pdf)
 
 
 #### Friday, October 6th: Review for Exam
