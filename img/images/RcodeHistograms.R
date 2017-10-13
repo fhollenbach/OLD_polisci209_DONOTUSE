@@ -160,7 +160,7 @@ data2010 <- subset(data2010, complete.cases(data2010))
 ggplot(data = data2010, aes(x = lGDP, y = tottax)) + geom_point() + 
   labs(x = "logged GDP",
        y = "Average Taxation as % GDP",
-       title = "Tax Revenue vs logged GDP") + theme_bw()
+       title = "Tax Revenue vs logged GDP") + theme_bw() +geom_vline(xintercept = 27.35, col ="red")
 ggsave("~/Desktop/myplot.pdf")
 
 
@@ -177,9 +177,12 @@ mean(data2010$totrev)
 sd_tottax = sqrt(sum((data2010$tottax - mean(data2010$tottax))^2)/(length(data2010$tottax)))
 mean(data2010$tottax)
 
+sd_lGDP = sqrt(sum((data2010$lGDP - mean(data2010$lGDP))^2)/(length(data2010$lGDP)))
+mean(data2010$lGDP)
 
 
-cor(data2010$totrev, data2010$tottax)
+cor(data2010$lGDP, data2010$tottax)
+lm(tottax~ lGDP, data = data2010 )
 
 x1 <- rnorm(10000, 0,1)
 x2 <- rnorm(10000, 0, 1) + rnorm(10000,0,1)

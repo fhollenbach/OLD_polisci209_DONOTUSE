@@ -30,3 +30,6 @@ Below you will find notes and print outs for Pols209-- Fall 2017
 
 ## Correlation and Scatter Plots
 [Notes on Scatterplots and Correlation in R](../img/images/notes-18-correlation-r.pdf)
+
+##Regression in R
+[Notes on Regression in R](../img/images/notes-23-regression-r.pdf)
