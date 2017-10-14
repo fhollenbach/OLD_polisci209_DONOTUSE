@@ -138,17 +138,16 @@ description: Introduction to Political Research Methods
 
 
 
-
 ### Week 7
 
-#### Monday, October 9th:  Exam 1 
+#### Monday, October 9th: Exam Review
 
 
 
 
 
 
-#### Wednesday, October 11th: Multiple Regression
+#### Wednesday, October 11th:  Exam 1 
 
 
 
@@ -157,7 +156,8 @@ description: Introduction to Political Research Methods
 
 
 
-#### Friday, October 13th:  Multiple Regression (in R) 
+#### Friday, October 13th:  Exam 1 Results
+
 
 
 
@@ -166,33 +166,26 @@ description: Introduction to Political Research Methods
 
 ### Week 8
 
-#### Monday, October 16th:  Getting Started on Writing Assignment 2
-- Bring laptop
-- Complete Assignment 6
+#### Monday, October 16th:  Regression error RMS 
+- Chapter 11
+- [Review Notes on Scatterplots and Correlation in R](../img/images/notes-18-correlation-r.pdf)
+
+
+
+#### Wednesday, October 18th: - Notes on Regression in R & Multiple Regression
+- Read ch. 12 of FPP
+- [Notes on Regression in R](../img/images/notes-23-regression-r.pdf)
+
+
+
+#### Friday, October 20th: Probability, Part 1
+- Read ch. 13 of FPP
 
 
 
 
 
 
-
-
-
-
-
-#### Wednesday, October 18th: Probability, Part 1
--  Read ch. 13 of FPP
-
-
-
-
-
-
-
-#### Friday, October 20th: 
-Probability, Part 2
--  Read ch. 14 of FPP
-- __Send writing assigment 2 to peer review partner__
 
 
 
@@ -201,23 +194,34 @@ Probability, Part 2
 
 ### Week 9
 
-#### Monday, October 23rd: 
-Law of Averages
+#### Monday, October 23rd: Getting Started on Writing Assignment 2
+- Bring laptop
+- Complete Assignment 6
+
+
+
+
+
+
+#### Wednesday, October 25th: Normal Approximation for Probability Histograms
+Probability, Part 2
+-  Read ch. 14 of FPP
+
+
+
+
+#### Friday, October 27th: Law of Averages
 - Read ch. 16 of FPP. 
-- __Send Writing Assignment 2 Comments to peer review partner__
 
 
 
 
 
-#### Wednesday, October 25th: Expected Value and Standard Error
-- Read ch. 17 of FPP.
 
 
 
-#### Friday, October 27th: Normal Approximation for Probability Histograms
--  Read ch. 18 of FPP
-- __Writing Assignment 2 due today__
+
+
 
 
 
@@ -225,30 +229,40 @@ Law of Averages
 
 ### Week 10
 
-#### Monday, October 30: Sample Surveys I
+#### Monday, October 30: Expected Value and Standard Error
+- Read ch. 17 of FPP.
+- __Send writing assigment 2 to peer review partner__
+
+
+
+
+
+#### Wednesday, November 1st:  Normal Approximation for Probability Histograms
+-  Read ch. 18 of FPP
+- __Send Writing Assignment 2 Comments to peer review partner__
+
+
+
+
+#### Friday, November 3rd: Sample Surveys I
 -  Read ch. 19 of FPP. 
-- Complete Assignment 6
+- __Writing Assignment 2 due today__
 
 
 
 
 
-#### Wednesday, November 1st: Sample Surveys II
-- Read ch. 20 of FPP.
 
 
 
-
-#### Friday, November 3rd: The Accuracy of Percentages
-- Read ch. 21 of FPP
 
 
 
 
 ### Week 11
 
-#### Monday, November 6th:  Surveys in the Real World
-- Read ch. 22 of FPP
+#### Monday, November 6th: Sample Surveys II
+- Read ch. 20 of FPP.
 - Complete Assignment 7
 
 
@@ -256,39 +270,55 @@ Law of Averages
 
 
 
-#### Wednesday, November 8th: The Accuracy of Averages
-- Read ch. 23 of FPP
+
+
+
+
+#### Wednesday, November 8th:  The Accuracy of Percentages
+- Read ch. 21 of FPP
 
 
 
 
 
 
-#### Friday, November 10th: Working on Writing Assingment 3
-- __Meet in lab__
-- Bring laptop
+
+
+
+#### Friday, November 10th: The Accuracy of Percentages
+- Read ch. 21 of FPP
+ 
+
+
+
+
+
 
 
 ### Week 12
 
-#### Monday, November 13th: Null hypothesis and Significance test
+#### Monday, November 13th: Surveys in the Real World
+- Read ch. 22 of FPP
+- Complete Assignment 7
+
+
+
+
+#### Wednesday, November 15th:  The Accuracy of Averages
+- Read ch. 23 of FPP
+
+
+
+#### Friday, November 17th: Class Canceled, Prof at conference
+- __Send writing assigment 3 to peer review partner__
+
+### Week 13
+
+#### Monday, November 20th: Null hypothesis and Significance test
 - Read ch. 26 of FFP
 - Complete Assignment 8
 
 
-#### Wednesday, November 15th:  More Tests for Averages 
-- Read ch. 27 of FPP
-- __Send writing assigment 3 to peer review partner__
-
-
-#### Friday, November 17th: Class Canceled, Prof at conference
-
-### Week 13
-
-#### Monday, November 20th: Chi-squared tests
-- Read ch. 28 of FPP
-- __Send Writing Assignment 3 Comments to peer review partner__
-- Complete Assignment 17 
 
 
 #### Wednesday, November 22nd
@@ -297,17 +327,32 @@ Turkey Break!
 
 ### Week 14
 
-#### Monday, November 27th: A closer look at significance
-- Read ch. 29 of FFP
+#### Monday, November 27th: More Tests for Averages 
+- Read ch. 27 of FPP
+- __Send Writing Assignment 3 Comments to peer review partner__
+
+
+
+
+
+#### Wednesday, November 29nd: Chi-squared tests
+- Read ch. 28 of FPP
+- Complete Assignment 17 
 - __Writing Assignment 3 due__
 
 
-#### Wednesday, November 29nd: Getting Twitter data in R
-- Read notes on Twitter in R
 
-#### Friday, December 1st: Reviewing Regression 
-- Read notes on Reviewing Regression
-- Complete Assignment 18 
+
+
+
+
+#### Friday, December 1st: A closer look at significance
+- Read ch. 29 of FFP
+
+
+//Reviewing Regression 
+//- Read notes on Reviewing Regression
+//- Complete Assignment 18 
 
 
 
@@ -319,4 +364,3 @@ Turkey Break!
 
 #### Wednesday, December 6th
 - Review for exam
-
