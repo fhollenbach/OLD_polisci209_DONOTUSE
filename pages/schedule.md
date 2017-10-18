@@ -163,7 +163,6 @@ description: Introduction to Political Research Methods
 
 
 
-
 ### Week 8
 
 #### Monday, October 16th:  Regression error RMS 
@@ -175,7 +174,8 @@ description: Introduction to Political Research Methods
 #### Wednesday, October 18th: - Notes on Regression in R & Multiple Regression
 - Read ch. 12 of FPP
 - [Notes on Regression in R](../img/images/notes-23-regression-r.pdf)
-
+- [Slides from class](../img/images/regression2.pdf)
+- [Rcode on Correlation/Regression from class](../img/images/rcode_cor.R)
 
 
 #### Friday, October 20th: Probability, Part 1
@@ -189,14 +189,13 @@ description: Introduction to Political Research Methods
 
 
 
-
-
-
 ### Week 9
 
 #### Monday, October 23rd: Getting Started on Writing Assignment 2
 - Bring laptop
-- Complete Assignment 6
+- [Complete Assignment 6](../img/images/assign6.pdf)
+
+
 
 
 

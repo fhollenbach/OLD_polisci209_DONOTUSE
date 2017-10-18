@@ -1,0 +1,21 @@
+---
+title: "Assignment5 -- Polisci 209 -- Due in class on Oct 23"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment 6
+
+
+1. In FPP, Chapter 11, Review Exercise 4 (page 198/199)
+
+2. In FPP, Chapter  11, Review Exercise 5  (page 199)
+
+3. In FPP, Chapter 11, Review Exercise 11 (page 200)
+
+4. In FPP, Chapter 12, Review Exercise 2 (page 214)
+
+5. In FPP, Chapter 12, Review Exercise 6 (page 215) -- (you do not have to do exercise 5!)
