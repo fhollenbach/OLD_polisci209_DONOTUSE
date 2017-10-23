@@ -202,8 +202,7 @@ description: Introduction to Political Research Methods
 
 
 
-#### Wednesday, October 25th: Normal Approximation for Probability Histograms
-Probability, Part 2
+#### Wednesday, October 25th: Probability, Part 2
 -  Read ch. 14 of FPP
 
 
