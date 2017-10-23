@@ -1,0 +1,91 @@
+---
+title: "Writing Assignment 2 -- Polisci 209"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Writing Assignment 2
+#### First Draft due on October 30th, Final Paper due on November 3rd
+
+For this assignment you need to download the "Presdata.csv" data file from the course website. Here is a link to the data: [https://fhollenbach.github.io/polisci209_fall2017/img/images/data/Presdata.csv](https://fhollenbach.github.io/polisci209_fall2017/img/images/data/Presdata.csv). Read the data into _RStudio_ and play around for a bit. There are 20 different variables in this dataset. The variables included are the following:
+
+1. Year - election year
+1. inc1 - Two-party vote share received in the presidential election by the party currently holding office.
+1. q2gdp – GDP growth in the second quarter of the election year (Abramowitz, 2012)
+1. cumpt8pclei2016 – Measure of Leading Economic Indicators, see Erikson and Wlezien (2012)
+1. LogTWH – logged time in the White House for a party (Lockerbie, 2012)
+1. G – growth rate of real GDP per capita in the first three quarters of the election year (Fair, 2012)
+1. P – absolute value of the GDP deflator in the first 15 quarters of the administration (Fair, 2012)
+1. Z – number of quarters in the first 15 quarters of the administration in which the growth rate of real per capita GDP is greater than 3.2% (Fair, 2012)
+1. ECONHALVED80 – Qtr. 2 real GDP growth (Campbell, 2012)
+1. gnpchan – Gross National Product, as percentage change non-annualized in GNP constant dollars from the fourth quarter of the year prior to the election to the second quarter of the election year, data from the Survey of Current Business (Lewis-Beck and Tien, 2012)
+1. Unemployment – average unemployment rate in the months from January to August in the election year (Bureau of Labor Statistics, 2016)
+1. Inflation – average inflation rate in the months from January to August in the election year (US Inflation Calculator, 2016)
+1. ViolentCrimeRate – violent crime rate per 100,000 people in the year prior to the election (Federal Bureau of Investigation, 2016)
+1. MurderRate– Murder and non-negligent manslaughter rate per 100,000 people in the year prior to the election (Federal Bureau of Investigation, 2016)
+1. AssaultRate – Aggravated assault rate per 100,000 people in the year prior to the election (Federal Bureau of Investigation, 2016)
+1. OwnershipShare – Rate of homeownership in April of the election year (Federal Reserve Bank of St. Louis, 2016)
+
+These data include observations for the presidential elections from 1952 to 2016. In this writing assignment you are expected to develop a short theoretical argument using one of the variables in the list above (3-16) to explain and predict incumbent vote share in presidential elections in the US. Your dependent variable is inc1 -- the incumbent vote share -- in the Presdata dataset. The incumbent vote share are the number of votes the party of the current President received divided by the total votes received by the Democratic and Republican candidates. You can choose one of the other variables in the data set (variables 3-16 in the list above) as your independent variable of choice. 
+
+To begin, you should look at your data. Use either the ```head()``` or ```tibble::glimpse``` functions. You can see the type of each of the variables. As you can see, all variables are numeric. 
+
+In this writing assignment you should have a short introduction and then develop a short theoretical argument (1 pargraph or so) about the relationship between your independent variable of choice and incumbent vote share. Next you should summarize the empirical relationship between the two variables with the tools we have covered in this class.
+
+## Detailed Instructions:
+
+The __Introduction__ should give an overview of your paper and explain why others should care about your ideas and the problem at hand. Make sure to include a clear statement that lays out your argument in one sentence. 
+
+The next section __(Theoretical Argument)__ should include the development of your argument. You can find background information on all the variables in the data set using the references given in the list. Come up with a theoretical argument for the expected relationship. Beware of caring too much about being right. I care most about you clearly explaining creative and imaginative ideas. Why does your independent variable matter for incumbent? How does it affect the vote share? What are the mechanisms? Marshal support for your model. Remember, here you are still in the model-building phase. Why does your theory make more sense than obvious alternatives someone might suggest? What are the features that make it particularly compelling and give it a high degree of explanatory power? Make sure to add appropriate citations if you use outside sources. 
+
+The next section of your paper is the __Empirical Analysis__. In this section you should show the nature of the relationship between your chosen independent variable and the dependent variable (incumbent vote share). Use the techniques we have covered in class so far to tell the reader about the development of both variables over time, their distributions, and relationship (i.e. plots, sd, mean, etc). Lastly, you should run a regression between your variable of interest and incumbent vote share for the elections until 2012 (including). Summarize the results of the regression, i.e. coefficient and RMS. What does it tell you? Use the regression result to predict the 2016 election. How far off are you? Note that it is okay if the data shows your theory to be wrong or off. For example, it is totally fine if you predicted a positive relationship but the data shows no relationship or even a negative one. 
+
+Last, the __Conclusion__ section should summarize the previous sections and discuss what we learned from your work. Give your readers an overview of the paper and leave them with a takeaway—your key point.
+
+Great assignments will be clearly and concisely written, have very few grammatical or spelling errors, and will describe plots and statistics in detail. Your conclusion should include some speculation about why you observed the empirical relationship. 
+
+Your paper should be between 700 and 1000 words and follow the following format:
+  - 12 point, Times New Roman Font, for the main body text.
+  - Double-space the main body of the text.
+  - Use section and subsection headings, with larger or different font as you see fit.
+  - 1 inch margins.
+  - Include your name, the title of your paper, and the word count on the first page of your paper.
+  - Beyond the points above, your paper should look and sound professional. You will be graded on completeness of the assignment, grammar, spelling, and creativity. Make sure to proofread before submitting!
+
+- I do not tolerate plagiarism. You can find the Honor System Rules here. You should note that even seemingly minor violations can become a permanent addition to your transcript. 
+- You should reference sources as needed. 
+- The paper must contain at least 700 words. I welcome additional effort, but I encourage you to focus on fitting more content into 700-800 words rather than submitting a 1,500 word paper.
+- You should write the paper so that someone who has not had this class could read it. Perhaps imagine writing to your parents. Suppose this person is interested in politics—they’ll be excited to read your ideas—but not knowledgeable about statistics (e.g., they don’t know what a standard deviation is).
+
+
+__SUBMISSION__ of first draft: __Prior to class on Friday, October 30th__ via email to your peer reviewer (list will be provided later) __and__ on eCampus under Writing Assignment 2. You must submit it to both. The final draft will be due on November 3rd via turnitin on eCampus. Paste your rcode at the end of the final draft.
+
+
+\pagebreak
+
+
+## References:
+
+- Abramowitz, Alan I. 2012. “Forecasting in a Polarized Era: The Time-for- Change Model and the 2012 Presidential Election.” PS: Political Science & Politics 45(4):618–619.
+
+- Bureau of Labor Statistics. 2016. “Databases, Tables & Calculators.” http: //data.bls.gov/timeseries/LNS14000000 (Accessed October 2016).
+
+- Campbell, James E. 2012. “Forecasting the Presidential and Congressional Elections of 2012: The Trial-Heat and the Seats-in-Trouble Models.” PS: Political Science & Politics 45(4):630–634.
+
+- Erikson, Robert S. and Christopher Wlezien. 2012. “The Objective and Sub- jective Economy and the Presidential Vote.” PS: Political Science & Politics 45(4):620–624.
+
+- Fair, Ray C. 2012. “Personal Website.” http://fairmodel.econ.yale.edu/ (accessed January 27, 2013).
+
+- Federal Bureau of Investigation. 2016. “Crime in the United States.”
+https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s. -2015/tables/table-1 (Accessed October 2016).
+
+- Federal Reserve Bank of St. Louis. 2016. “Homeownership Rate for the United States (RHORUSQ156N).” https://fred.stlouisfed.org/ series/RHORUSQ156N (Accessed October 2016).
+
+- Lewis-Beck, Michael S. and Charles Tien. 2012. “Election Forecasting for Tur- bulent Times.” PS: Political Science & Politics 45(4):625–629.
+
+- Lockerbie, Brad. 2012. “Economic Expectations and Election Outcomes: The Presidency and the House in 2012.” PS: Political Science & Politics 45(4):644– 647.
+
+- US Inflation Calculator. 2016. “Historical Inflation Rates: 1914- 2016.” http://www.usinflationcalculator.com/inflation/ historical-inflation-rates/ (Accessed October 2016).
