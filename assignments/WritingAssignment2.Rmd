@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Writing Assignment 2
 #### First Draft due on October 30th, Final Paper due on November 3rd
 
-For this assignment you need to download the "Presdata.csv" data file from the course website. Here is a link to the data: [https://fhollenbach.github.io/polisci209_fall2017/img/images/data/Presdata.csv](https://fhollenbach.github.io/polisci209_fall2017/img/images/data/Presdata.csv). Read the data into _RStudio_ and play around for a bit. There are 20 different variables in this dataset. The variables included are the following:
+For this assignment you need to download the "Presdata.csv" data file from the course website. Here is a link to the data: [https://fhollenbach.github.io/polisci209_fall2017/img/images/data/Presdata.csv](https://fhollenbach.github.io/polisci209_fall2017/img/images/data/Presdata.csv). Read the data into _RStudio_ and play around for a bit. There are 16 different variables in this dataset. The variables included are the following:
 
 1. Year - election year
 1. inc1 - Two-party vote share received in the presidential election by the party currently holding office.
@@ -69,13 +69,13 @@ __SUBMISSION__ of first draft: __Prior to class on Friday, October 30th__ via em
 
 ## References:
 
-- Abramowitz, Alan I. 2012. “Forecasting in a Polarized Era: The Time-for- Change Model and the 2012 Presidential Election.” PS: Political Science & Politics 45(4):618–619.
+- Abramowitz, Alan I. 2012. “Forecasting in a Polarized Era: The Time-for-Change Model and the 2012 Presidential Election.” PS: Political Science & Politics 45(4):618–619.
 
 - Bureau of Labor Statistics. 2016. “Databases, Tables & Calculators.” http: //data.bls.gov/timeseries/LNS14000000 (Accessed October 2016).
 
 - Campbell, James E. 2012. “Forecasting the Presidential and Congressional Elections of 2012: The Trial-Heat and the Seats-in-Trouble Models.” PS: Political Science & Politics 45(4):630–634.
 
-- Erikson, Robert S. and Christopher Wlezien. 2012. “The Objective and Sub- jective Economy and the Presidential Vote.” PS: Political Science & Politics 45(4):620–624.
+- Erikson, Robert S. and Christopher Wlezien. 2012. “The Objective and Subjective Economy and the Presidential Vote.” PS: Political Science & Politics 45(4):620–624.
 
 - Fair, Ray C. 2012. “Personal Website.” http://fairmodel.econ.yale.edu/ (accessed January 27, 2013).
 
@@ -84,7 +84,7 @@ https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s. -2015/tables/table-1
 
 - Federal Reserve Bank of St. Louis. 2016. “Homeownership Rate for the United States (RHORUSQ156N).” https://fred.stlouisfed.org/ series/RHORUSQ156N (Accessed October 2016).
 
-- Lewis-Beck, Michael S. and Charles Tien. 2012. “Election Forecasting for Tur- bulent Times.” PS: Political Science & Politics 45(4):625–629.
+- Lewis-Beck, Michael S. and Charles Tien. 2012. “Election Forecasting for Turbulent Times.” PS: Political Science & Politics 45(4):625–629.
 
 - Lockerbie, Brad. 2012. “Economic Expectations and Election Outcomes: The Presidency and the House in 2012.” PS: Political Science & Politics 45(4):644– 647.
 
