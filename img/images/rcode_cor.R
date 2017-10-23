@@ -28,7 +28,14 @@ ggsave("~/Dropbox/TAMU/Teaching/Fall2017/slides/week6/gamson1.pdf")
 ### wow that looks like a very strong correlation
 ### Gamson's law
 ### can we calculate the correlation in R by hand?
-sd_seatshare <- sqrt(sum((gamson$seat_share - mean(gamson$seat_share))^2)/length(gamson$seat_share))
+
+deviation_squared <- (gamson$seat_share - mean(gamson$seat_share))^2
+summed_deviation2 <- sum(deviation_squared)
+avg_deviation2 <- summed_deviation2/length(gamson$seat_share)
+sd_seatshare <- sqrt(avg_deviation2)
+sd(gamson$seat_share)
+
+##all in one
 sd_portfolio <- sqrt(sum((gamson$portfolio_share - mean(gamson$portfolio_share))^2)/length(gamson$portfolio_share))
 
 seatshare_su <- (gamson$seat_share - mean(gamson$seat_share))/sd_seatshare
@@ -50,7 +57,7 @@ ggplot(cfb, aes(x = Attempts, y = Yards)) + geom_point()
 ### note that ggplot tells us about missing values
 
 #### how about we add the point of averages?
-ggplot(cfb, aes(x = Attempts, y = Yards)) + geom_point() + geom_point(aes(x = mean(cfb$Attempts, na.rm = T), y = mean(cfb$Yards, na.rm = T)), color = "red")
+ggplot(cfb, aes(x = Attempts, y = Yards)) + geom_point() + geom_point(aes(x = mean(cfb$Attempts, na.rm = T), y = mean(cfb$Yards, na.rm = T)), color = "blue")
 
 
 
@@ -87,7 +94,7 @@ mean(std_yards*std_Attempts, na.rm = T)
 ### but very close
 ####
 #### R again also uses (N-1) instead of N
-cor(cfb, use = "pairwise.complete.obs")
+cor(cfb$Yards, cfb$Attempts, use = "pairwise.complete.obs")
 
 
 ##### this data set has a lot of variables that are interesting
@@ -97,7 +104,7 @@ glimpse(health)
 #### let's use the select function to grab all the numeric variables and put them in a new dataframe called numeric vars
 #### now we can calculate the pairwise correlation for all of them
 numeric_vars <- select(health, percent_favorable_aca, percent_supporting_expansion, obama_share_12, ideology, percent_uninsured, infant_mortality_rate, cancer_incidence, heart_disease_death_rate, life_expectancy)
-
+glimpse(numeric_vars)
 cors <- cor(numeric_vars, use = "pairwise.complete.obs")
 
 #### the package ggcorplot makes nice plots that show the pairwise correlation by color
@@ -140,7 +147,7 @@ coef(model1)
 
 #### so far we have ignored the intercept but it is also important
 ### we can also add the regression line to our plots with the function geom_smooth
-ggplot(gamson, aes(x = seat_share, y = portfolio_share)) +  geom_point() + geom_point(aes(x = mean(gamson$seat_share), y = mean(gamson$portfolio_share)), color = "red") + geom_smooth(method = "lm", se = FALSE, color = "red")
+ggplot(gamson, aes(x = seat_share, y = portfolio_share)) +  geom_point() + geom_point(aes(x = mean(gamson$seat_share), y = mean(gamson$portfolio_share)), color = "red") + geom_smooth(method = "lm", se = FALSE, color = "blue")
 
 ### remember you can use ggsave to save the plot
 ### make sure you set the correct path to where you want to save it
@@ -179,3 +186,16 @@ gamson$error <- residuals(model1)
 ggplot(gamson, aes(x = seat_share, y = error)) +  geom_point(alpha = 0.3) + geom_smooth(method = "lm", se = FALSE, color = "red")
 
 
+
+
+
+pres <- read.csv("~/Documents/GitHub/polisci209_fall2017/img/images/data/Presdata.csv")
+glimpse(pres)
+
+
+mod <- lm(inc1 ~  Z, data = pres)
+coef(mod)
+data2016 <- subset(pres, Year == 2016)
+
+#### prediction 
+prediction <- predict(mod, newdata = data2016 )
