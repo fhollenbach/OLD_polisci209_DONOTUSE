@@ -558,7 +558,7 @@ notification.
 - Bring laptop
 - [Complete Assignment 6](../img/images/assign6.pdf)
 - [Writing Assignment 2](../img/images/WritingAssignment2.pdf)
-- [Data for Writing Assignment](../img/images/Presdata.csv)
+- [Data for Writing Assignment](../img/images/data/Presdata.csv)
 
 
 
