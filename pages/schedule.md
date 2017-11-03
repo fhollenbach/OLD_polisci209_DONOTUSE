@@ -238,7 +238,8 @@ description: Introduction to Political Research Methods
 #### Wednesday, November 1st:  Normal Approximation for Probability Histograms
 -  Read ch. 18 of FPP
 - __Send Writing Assignment 2 Comments to peer review partner__
-
+- [Slides from class](../img/images/probability.pdf)
+- [Rcode on Probability](../img/images/draws_forClass.R)
 
 
 
