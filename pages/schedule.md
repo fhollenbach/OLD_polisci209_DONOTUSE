@@ -262,7 +262,6 @@ description: Introduction to Political Research Methods
 
 #### Monday, November 6th: Sample Surveys II
 - Read ch. 20 of FPP.
-- Complete Assignment 7
 
 
 
@@ -286,7 +285,8 @@ description: Introduction to Political Research Methods
 
 #### Friday, November 10th: The Accuracy of Percentages
 - Read ch. 21 of FPP
- 
+- Complete Assignment 8
+
 
 
 

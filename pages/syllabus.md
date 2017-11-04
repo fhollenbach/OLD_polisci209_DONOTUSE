@@ -628,7 +628,6 @@ notification.
 
 #### Monday, November 6th: Sample Surveys II
 - Read ch. 20 of FPP.
-- Complete Assignment 7
 
 
 
@@ -652,7 +651,8 @@ notification.
 
 #### Friday, November 10th: The Accuracy of Percentages
 - Read ch. 21 of FPP
- 
+- Complete Assignment 8
+
 
 
 
