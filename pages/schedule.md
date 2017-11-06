@@ -285,8 +285,7 @@ description: Introduction to Political Research Methods
 
 #### Friday, November 10th: The Accuracy of Percentages
 - Read ch. 21 of FPP
-- Complete Assignment 8
-
+[Complete Assignment 8](../img/images/assign8.pdf)
 
 
 
@@ -315,7 +314,6 @@ description: Introduction to Political Research Methods
 
 #### Monday, November 20th: Null hypothesis and Significance test
 - Read ch. 26 of FFP
-- Complete Assignment 8
 
 
 

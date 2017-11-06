@@ -24,3 +24,6 @@ Below you will find homework assignments Pols209-- Fall 2017
 
 ## Assignment 6
 [Assignment 6](../img/images/assign6.pdf)
+
+## Assignment 8
+[Assignment 8](../img/images/assign8.pdf)
