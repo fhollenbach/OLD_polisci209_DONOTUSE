@@ -285,7 +285,7 @@ description: Introduction to Political Research Methods
 
 #### Friday, November 10th: The Accuracy of Percentages
 - Read ch. 21 of FPP
-[Complete Assignment 8](../img/images/assign8.pdf)
+- [Complete Assignment 8](../img/images/assign8.pdf)
 
 
 
