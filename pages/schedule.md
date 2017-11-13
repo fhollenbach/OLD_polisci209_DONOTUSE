@@ -290,7 +290,8 @@ description: Introduction to Political Research Methods
 
 #### Monday, November 13th: Surveys in the Real World
 - Read ch. 22 of FPP
-
+- [Writing Assignment 3](../img/images/WritingAssignment3.pdf)
+- [Data for Writing Assignment 3](../img/images/data/guns.csv)
 
 
 
@@ -306,7 +307,7 @@ description: Introduction to Political Research Methods
 
 #### Monday, November 20th: Null hypothesis and Significance test
 - Read ch. 26 of FFP
-- __Send writing assigment 3 to peer review partner__
+- __Send writing assigment 3 to peer review partner via eCampus__
 
 
 

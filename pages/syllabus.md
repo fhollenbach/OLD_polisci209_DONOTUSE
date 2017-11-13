@@ -664,6 +664,8 @@ notification.
 
 #### Monday, November 13th: Surveys in the Real World
 - Read ch. 22 of FPP
+- [Writing Assignment 3](../img/images/WritingAssignment3.pdf)
+- [Data for Writing Assignment 3](../img/images/data/guns.csv)
 
 
 
