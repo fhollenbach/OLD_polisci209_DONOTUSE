@@ -280,16 +280,9 @@ description: Introduction to Political Research Methods
 
 
 
-
-
-
 #### Friday, November 10th: The Accuracy of Percentages
 - Read ch. 21 of FPP
 - [Complete Assignment 8](../img/images/assign8.pdf)
-
-
-
-
 
 
 
@@ -297,7 +290,6 @@ description: Introduction to Political Research Methods
 
 #### Monday, November 13th: Surveys in the Real World
 - Read ch. 22 of FPP
-- Complete Assignment 7
 
 
 
@@ -308,12 +300,13 @@ description: Introduction to Political Research Methods
 
 
 #### Friday, November 17th: Class Canceled, Prof at conference
-- __Send writing assigment 3 to peer review partner__
+- work on Writing Assignment
 
 ### Week 13
 
 #### Monday, November 20th: Null hypothesis and Significance test
 - Read ch. 26 of FFP
+- __Send writing assigment 3 to peer review partner__
 
 
 
@@ -334,8 +327,6 @@ Turkey Break!
 
 #### Wednesday, November 29nd: Chi-squared tests
 - Read ch. 28 of FPP
-- Complete Assignment 17 
-- __Writing Assignment 3 due__
 
 
 
@@ -345,11 +336,7 @@ Turkey Break!
 
 #### Friday, December 1st: A closer look at significance
 - Read ch. 29 of FFP
-
-
-//Reviewing Regression 
-//- Read notes on Reviewing Regression
-//- Complete Assignment 18 
+- __Writing Assignment 3 due__
 
 
 
@@ -358,6 +345,7 @@ Turkey Break!
 
 #### Monday, December 4th: Maps in R
 - Review notes on Maps in R
+
 
 #### Wednesday, December 6th
 - Review for exam

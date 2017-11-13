@@ -1,0 +1,89 @@
+---
+title: "Writing Assignment 3 -- Polisci 209"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Writing Assignment 3
+#### First Draft due on November 22nd, Final Paper due on December 4th
+
+For this assignment you need to download the "guns.csv" data file from the course website. Here is a link to the data: [https://fhollenbach.github.io/polisci209_fall2017/img/images/data/guns.csv](https://fhollenbach.github.io/polisci209_fall2017/img/images/data/guns.csv). Read the data into _RStudio_ and play around for a bit. There are a lot of different variables in this dataset. The variables included are the following:
+
+
+This assignment requires you to:
+
+1. Conduct analysis of data using a scatterplot and regression.  
+2. Incorporate and distinguish between normative, descriptive, and causal claims.  
+3. Justify the framing of your argument and interpret the policy-relevance of your analysis.  
+
+Your task is to use the guns.csv dataset drawn from The Brady Campaign to answer the following question:   __What, if any, are the policy implications of the available data on the outcomes of firearm-related deaths and homicide deaths, and the explanatory variables related to gun control in the United States?__
+
+## Framing Your Analysis
+ You can choose to frame your analysis in a number of ways, provided it incorporates the above elements. You should make an argument for why you do so. Here are some questions you might consider: 
+ 
+- Which outcome variable (firearm related deaths or homicide deaths) is the most policy-relevant, and why?
+- What is a little-noted fact, or set of facts, that is important for policymakers or the public to know? 
+- What causal models related to policies and outcomes are plausible? What model do you think is the most (or least) compelling? 
+- How should policy change if the causal claim you analyze is true, if at all?  What if it is false?  
+
+## Structuring Your Paper:
+ Your essay should contain the following four (4) sections: 
+ 
+###Introduction:  
+
+Give an overview of your paper and explain why others should care about your ideas. Make sure to include a clear thesis statement that lays out your argument.  
+
+###Framing and Description:  
+
+How are you going to approach the analysis? What are the important indicators? In this section, you should do the following:  
+    
+  - Identify one outcome and explanatory variable of interest, and explain why you think these are the most policy-relevant. (Justify why firearm-related deaths or homicide deaths matters more. Justify why total_points or a specific gun control policy is the relevant explanatory variable. 
+  - Describe the averages and standard deviations of these variables.  
+  - Present a scatterplot.  
+  - Propose a relevant causal question to answer.  
+
+### Regression Analysis
+
+In this section, you will use regression to evaluate the evidence for a causal claim identified in the section above. You need to do the following:  
+  
+  - Present a regression table.  
+  - Interpret the coefficients. (For instance: a 1-point increase in total_points predicts a decrease in the firearm_death_rate by 0.76).  
+  - What evidence, if any, does the regression provide for the causal claim?    
+  - Discuss the policy implications.  
+  
+### Conclusion
+
+Give your readers an overview of the paper and leave them with a takeaway—your key point. Leave the readers with a stark conclusion about how the data and your analysis should inform policymakers and the public about gun policy in the U.S.  
+
+## Notes:
+- You must upload the initial submission of your first draft (still a polished draft, not a rough draft) through eCampus by noon on Wednesday, November 22. The final paper will be due via eCampus at noon on December 4th. 
+- __I do not tolerate plagiarism__. You can find the Honor System Rules here: [http://student-rules.tamu.edu/aggiecode](http://student-rules.tamu.edu/aggiecode). You should note that even seemingly minor violations can become a permanent addition to your transcript. 
+- This is a short research paper in political science, thus it necessarily is about politics. Yet, you __should leave you personal political opinions out of this paper__. You are not writing a paper to reflect your normative opinions about guns, but rather a research paper that objectively answers a question.
+- The paper must contain at least 800 words. I welcome additional effort, but I encourage you to focus on fitting more content into fewer words rather than submitting a long paper. 
+- You should make the paper look and sound professional, but I encourage you to be creative and playful with your prose. Remember, others will read your writing. Make it enjoyable. 
+- You should write the paper so that someone who has not had this class could read it. Perhaps imagine writing to your parents. Suppose this person is interested in politics—they’ll be excited to read your ideas—but not knowledgeable about statistics (e.g., they don’t know what a standard deviation is).
+
+
+##Formatting 
+- 12 point, Times New Roman Font, for the main body text. 
+- Double-space the main body of the text. 
+- Use section and subsection headings, with larger or different font as you see fit. 
+- 1 inch margins. 
+- Include your name, the title of your paper, and the word count on the first page of your paper. (Note, the minimum is 800 words).  
+- Make sure all graphs and plots are clearly labeled and identified in the text.  
+- Include page numbers on the top right-hand corner of the page.  
+- Beyond the points above, I simply want your paper to look professional and give you room to match the format to your aesthetic preferences. 
+
+## References 
+- Make sure to properly cite any sources you incorporate, and include a reference list.  
+
+
+
+
+\pagebreak
+
+
+## References:
