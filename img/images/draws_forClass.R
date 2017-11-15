@@ -65,3 +65,31 @@ sum(In95CI)
 
 ### or in per cent:
 sum(In95CI)/1000
+
+
+
+
+
+
+
+
+#### what is the expected value
+
+population <- c(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,00,0,0,0,0,0,0,400)
+mean(population)
+
+averages <- rep(NA, 10000)
+iter <- seq(1,10000,1)
+for(i in 1:10000){
+  #### the number between c() are what is in the box, change that to change the content of the box
+  ### 10 here are the number of draws, you can change those too
+  samp <- sample( population, 1000, replace = TRUE)
+  averages[i] <- mean(samp)
+}
+
+draws <- data.frame(averages,iter)
+names(draws)
+
+
+ggplot(data = draws, aes(x = averages)) + geom_histogram() ###aes is the aesthetic argument, here we tell ggplot we want logged GDP on the x-axis
+

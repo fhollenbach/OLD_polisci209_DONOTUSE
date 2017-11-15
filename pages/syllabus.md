@@ -666,13 +666,14 @@ notification.
 - Read ch. 22 of FPP
 - [Writing Assignment 3](../img/images/WritingAssignment3.pdf)
 - [Data for Writing Assignment 3](../img/images/data/guns.csv)
-
+- [Slides Sampling](../img/images/sampling.pdf)
+- [Rcode Sampling](../img/images/draws_forClass.R)
 
 
 
 #### Wednesday, November 15th:  The Accuracy of Averages
 - Read ch. 23 of FPP
-
+- [Slides Sampling](../img/images/sampling.pdf)
 
 
 #### Friday, November 17th: Class Canceled, Prof at conference
@@ -680,8 +681,7 @@ notification.
 
 ### Week 13
 
-#### Monday, November 20th: Null hypothesis and Significance test
-- Read ch. 26 of FFP
+#### Monday, November 20th: Alumni Panel
 - __Send writing assigment 3 to peer review partner via eCampus__
 
 
@@ -693,7 +693,8 @@ Turkey Break!
 
 ### Week 14
 
-#### Monday, November 27th: More Tests for Averages 
+#### Monday, November 27th: Null hypothesis and Significance test \& More Tests for Averages 
+- Read ch. 26 of FFP
 - Read ch. 27 of FPP
 - __Send Writing Assignment 3 Comments to peer review partner__
 
