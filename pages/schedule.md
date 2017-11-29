@@ -328,8 +328,7 @@ Turkey Break!
 
 
 
-#### Wednesday, November 29nd: Chi-squared tests
-- Read ch. 28 of FPP
+#### Wednesday, November 29nd: 
 
 
 
@@ -338,8 +337,6 @@ Turkey Break!
 
 
 #### Friday, December 1st: A closer look at significance
-- Read ch. 29 of FFP
-- __Writing Assignment 3 due__
 
 
 
@@ -347,7 +344,8 @@ Turkey Break!
 ### Week 15
 
 #### Monday, December 4th: Maps in R
-- Review notes on Maps in R
+- __Writing Assignment 3 due before noon__
+- [Complete Assignment 9](../img/images/assign9.pdf)
 
 
 #### Wednesday, December 6th
