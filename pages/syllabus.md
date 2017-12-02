@@ -711,6 +711,8 @@ Turkey Break!
 
 
 #### Friday, December 1st: A closer look at significance
+- [Slides from Class](../img/images/testing.pdf)
+- [Practice Problems for Exam](../img/images/testing.pdf)
 
 
 
