@@ -266,7 +266,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. Exercise Set C, Question 1
 
-#### Chapter 24
+#### Chapter 26
 
 1. Exercise Set A, Question 4
 
@@ -290,7 +290,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. Exercise Set F, Question 3
 
-#### Chapter 25
+#### Chapter 27
 
 1. Exercise Set A, Question 4
 
